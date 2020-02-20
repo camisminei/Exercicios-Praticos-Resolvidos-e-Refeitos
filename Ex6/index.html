@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Exercicio 6 - Carros</title>
+        <meta charset="utf-8">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="card">
+            <input type="text" placeholder="Nome" id="nome-input">
+            <input type="text" placeholder="Marca" id="marca-input">
+            <input type="number" placeholder="Ano" id="ano-input">
+
+            <button type="button" onclick="controller.adicionar()">Salvar</button>
+            <button type="button" onclick="">Cancelar</button>
+            <button type="button" onclick="controller.calcularResultado()">Resultado</button>
+        </div>
+
+        <div id="lista">
+            <table>
+                <thead>
+                    <td>Nome</td>
+                    <td>Marca</td>
+                    <td>Ano</td>
+                </thead>
+                <tbody id="resultado-listado"></tbody>
+            </table>
+        </div>
+        <div id="resultado-impresso"></div>
+    </body>
+</html>

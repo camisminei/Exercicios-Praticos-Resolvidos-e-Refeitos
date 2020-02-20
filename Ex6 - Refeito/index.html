@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Exercicio 6 - Carros</title>
+        <meta charset="utf-8">
+
+        <script src="js/script.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div>
+            <h2>Lista de Carros</h2>
+        </div>
+        
+        <div class="input-entrada">
+            <legend>Nome</legend>
+            <input type="text" id="input-nome">
+            <legend>Marca</legend>
+            <input type="text" id="input-marca">
+            <legend>Ano</legend>
+            <input type="number" id="input-ano">
+
+        </div>
+
+        <div class="botoes">
+            <button type="button" onclick="controller.salvar()">Salvar</button>
+            <button type="button" onclick="controller.limpar()">Cancelar</button>
+            <button type="button" onclick="controller.CalcularResultado()">Resultado</button>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <th>Nome</th>
+                    <th>Marca</th>
+                    <th>Ano</th>
+                </thead>
+                <tbody id="resultado-tabela"></tbody>
+            </table>
+        </div>
+
+
+        <div class="resultados">
+            <fieldset>
+                <legend>Resultados</legend>
+
+                <span id="mais-novo"></span>
+                <span id="mais-velho"></span>
+                <span id="media-ano"></span>
+            </fieldset>
+        </div>
+    </body>
+</html>

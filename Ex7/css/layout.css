@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI';
+}
+
+img{
+    height: 30px;
+}
+
+.card{
+    width: 48%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+div .input-tarefa{
+    margin: auto;
+    padding: 10px 20px;
+    width: 60%;
+}
+
+.card .input-tarefa{
+    height: 30px;
+    display: flex;
+}
+
+.input-tarefa input[type='text']{
+   width: 90%;
+   margin-inline-end: 10px;
+}
+th,td{
+    padding: 10px 30px;
+}
+#resultado{
+    padding: 10px 30px;
+}
+table{
+    margin: auto;
+}
